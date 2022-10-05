@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="surat" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="78ff72ad-18cf-4aa6-b4f4-028a0f277083">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="nim" class="java.lang.String"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="dob" class="java.sql.Date"/>
+	<field name="address" class="java.lang.String"/>
+	<field name="gender" class="java.lang.String"/>
+	<field name="studyProgramCode" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="81" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="550" height="30" uuid="e1481896-5b49-4171-b1d6-c9aa6b3b4473"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[SURAT KETERANGAN]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="149" y="1" width="80" height="29" uuid="e435260d-30b6-4372-a4e9-70c20795bdc5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Nomor :]]></text>
+			</staticText>
+			<textField pattern="/ MM">
+				<reportElement x="289" y="0" width="40" height="30" uuid="a1809536-2cae-47be-866e-17e982acf749"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="/ yyyy">
+				<reportElement x="339" y="0" width="40" height="30" uuid="700a76ca-c27d-40ea-97b8-24e61dd1fd9d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="229" y="0" width="50" height="30" uuid="888dcd67-722a-4128-a753-f5a2f127f2d2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["000"+$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="310" splitType="Stretch">
+			<staticText>
+				<reportElement x="21" y="20" width="480" height="29" uuid="5aa50da7-0c8d-4de5-9e15-7f7addb2d49e"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Yang bertanda tangan dibawah ini, Rektor Universitas Bawana menerangkan bahwa :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="60" width="100" height="29" uuid="2a3f0f3e-f4a2-488d-93a5-9a46ae7506d5"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Nama		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="89" width="100" height="29" uuid="b7b81cfe-db4f-46eb-8c78-4808b646ae53"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Jenis Kelamin	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="120" width="100" height="29" uuid="e91508fc-9b84-4b36-b189-a4a50b125c2e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Tanggal Lahir	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="150" width="100" height="29" uuid="f1aa4aac-15f8-49f3-96fd-e4823933aa12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Program Studi	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="179" width="100" height="29" uuid="58a132fa-1f9e-4a13-a450-b4d76bb4d972"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Alamat		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="230" width="499" height="69" uuid="996bed28-227f-4651-9e00-404805d4aab3"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Bahwa yang bersangkutan DITERIMA sebagai Mahasiswa di Universitas Bawana. Untuk perkuliahan dimulai pada tanggal 6 September 2022 . Demikian Surat keterangan ini dibuat dan untuk digunakan sebagaimana mestinya.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="121" y="59" width="100" height="30" uuid="5efd4a1b-073b-47a7-9830-7d413a29a37f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="100" width="100" height="30" uuid="bfe85940-3bbc-4632-8ccc-749ac2ad9d5b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{gender}.equals("L")? "Laki-Laki" :"Perempuan"]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MM-yyyy">
+				<reportElement x="121" y="119" width="100" height="30" uuid="db2d6850-feba-4fad-878f-7a9bd13d5fdc"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dob}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="121" y="150" width="100" height="30" uuid="7f9f9798-90e8-4113-9cd6-cc9c5a037c92"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{studyProgramCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="121" y="180" width="380" height="30" uuid="5316fc17-78e0-4bbc-b4fa-57884e31b3ea"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="140" splitType="Stretch">
+			<staticText>
+				<reportElement x="360" y="10" width="60" height="19" uuid="36e9bf77-6110-4a31-816a-4c4d42f7328f"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Jakarta, ]]></text>
+			</staticText>
+			<textField pattern="dd MMMM yyyy">
+				<reportElement x="420" y="9" width="114" height="20" uuid="6c8f4fe6-54e3-4853-939e-c325396901af"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="370" y="30" width="164" height="19" uuid="e1ef9a84-1972-4bb3-95fa-f07b0e7b7262"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Rektor Universitas Bawana]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="110" width="164" height="29" uuid="17cdddeb-40f3-4e3c-8699-9873545ee0a7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Michael]]></text>
+			</staticText>
+			<line>
+				<reportElement x="370" y="110" width="163" height="1" uuid="f235448e-0a1a-4045-82d1-0cd4394b51e4"/>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

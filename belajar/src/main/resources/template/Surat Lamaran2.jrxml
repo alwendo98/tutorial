@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c67e93bf-4e47-4cc0-a616-709a3850dc7e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="162" splitType="Stretch">
+			<textField>
+				<reportElement x="161" y="13" width="219" height="30" uuid="0698b114-1305-4911-948f-f228a01542be"/>
+				<textElement textAlignment="Center">
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Surat Lamaran Pekerjaan]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="43" width="130" height="30" uuid="c2980863-a956-4050-9d52-c1a7ca19c462"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Hal : Lamaran Kerja]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="70" width="100" height="30" uuid="31f0cccb-f722-4528-8e6d-563164bd9699"/>
+				<textElement textAlignment="Center">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Kepada Yth,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="102" width="181" height="30" uuid="197c8db4-2d54-4459-885e-a008a5f9827b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Bapak/Ibu Pimpinan/Hrd]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="132" width="195" height="30" uuid="6f574a14-6a65-44a8-80b3-67fc89ec93c1"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[PT.BAWANA MARGATAMA ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="450" y="43" width="120" height="37" uuid="4ec33edb-df1c-4eca-9f9a-c79f7ce16efe"/>
+				<textFieldExpression><![CDATA[Jakarta, <Tanggal Hari ini>]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="0" width="290" height="30" uuid="d5924c94-f87e-4c1e-9b28-d88d10eba10e"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Sovereign Plaza, Lantai 2. Jl. TB Simatupang No. 36]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="40" width="290" height="30" uuid="d3b9ec6e-a1e3-47b3-bdb0-709ccf9e4a62"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Jakarta 12430]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="80" width="290" height="30" uuid="09bd07be-9dc6-4873-b9e7-8580383f828b"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Dengan Hormat,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="6" y="120" width="554" height="84" uuid="2e3c49b5-d3bf-4151-8406-7e61272fb6e8"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[Sehubungan dengan informasi lowongan pekerjaan di PT. Bawana Margatama, yang saya peroleh
+dari website perusahaan pada tanggal <Tanggal Hari Ini>. Saya mengajukan diri untuk bergabung
+sebagai Java Developer di PT. Bawana Margatama. Adapun data diri saya sebagai berikut :]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="210" width="70" height="30" uuid="bf88a128-fe7f-454e-aaeb-185af015f6ee"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="250" width="80" height="30" uuid="62031208-2764-4de2-bd2e-8f9274d81156"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Tempat,Tgl Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="6" y="290" width="80" height="30" uuid="e139711f-73c5-4e60-81b7-229ce423b710"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Umur]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="340" width="115" height="30" uuid="fd4c1b14-bbd2-4c12-9697-98b70bc686c7"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Pendidikan Terakhir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="390" width="115" height="30" uuid="41e4d2a1-e3b2-43a9-8c9f-4e49dbb4c71f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="450" width="115" height="30" uuid="c487e30d-a2ab-4829-8cf8-0f09cee94a68"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Jenis Kelamin]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="5" y="490" width="550" height="60" uuid="2cd4c5fa-76ca-482b-8cdc-4557f17c1fc5"/>
+				<textFieldExpression><![CDATA[Sebagai bahan pertimbangan Bapak/Ibu saya melampirkan sejumlah dokumen penting sebagai
+berikut :]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="560" width="115" height="30" uuid="716ec9cd-0efa-4039-a036-c4e3dd9c8bcf"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[1. Curriculum Vitae (CV)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="610" width="115" height="30" uuid="837c1f69-0437-4cf8-9e1c-056c96102a92"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[2. Scan Ijazah ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="5" y="660" width="550" height="60" uuid="b891836e-7d21-44c8-9ea7-452ee5e863c9"/>
+				<textFieldExpression><![CDATA[Demikian surat lamaran kerja ini saya buat, besar harapan saya untuk dapat diterima diperusahaan
+Bapak/Ibu. Atas perhatiannya saya ucapkan terimakasih.]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="391" y="720" width="164" height="29" uuid="ffc86202-7dec-4c8e-a5a0-4bfcba05b338"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Hormat Saya]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="210" width="160" height="30" uuid="324e4aed-0062-412d-8da3-ed3117ce0d84"/>
+				<textFieldExpression><![CDATA[: <Nama Mahasiswa>]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="250" width="185" height="30" uuid="7c04691a-0118-4728-9f8a-00c5fdb02101"/>
+				<textFieldExpression><![CDATA[: Jakarta, <DOB Mahasiswa>]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="293" width="185" height="30" uuid="09cc9449-f074-4972-b75e-16d2d6fe4176"/>
+				<textFieldExpression><![CDATA[: <Tahun hari ini – Tahun DOB>]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="340" width="220" height="30" uuid="6a808c7e-cce8-4fa6-8021-cee6f2cff49b"/>
+				<textFieldExpression><![CDATA[: Universitas Bawana (S1 <Nama Program Studi>)]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="390" width="187" height="30" uuid="3f8391b6-fecb-41f1-95d4-93e38bb7f15d"/>
+				<textFieldExpression><![CDATA[: <Alamat Mahasiswa>]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="450" width="187" height="30" uuid="a96446be-d483-407c-89d9-e77a9dde568d"/>
+				<textFieldExpression><![CDATA[: <Kalo P jadi “Wanita”, kalo L jadi “Pria”]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="770" width="100" height="30" uuid="ca1ca78b-4871-4531-84f9-ccdbd1ee0d9b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[Michael Alwendo]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
